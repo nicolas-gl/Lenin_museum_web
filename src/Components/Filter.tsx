@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from './Filter.module.scss'
 
-type Props = {}
+// type Props = {}
 const params = {
     "Материал": ["Мрамор", "Бронза", "Гранит", "Керамика", "Фарфор", "Гипс", "Металл", "Разное"],
     "Автор": ["Сычев", "Аронсон", "Лехт", "Андреев"],
@@ -9,10 +9,10 @@ const params = {
     "Размер": ["менее 10 см", "10-20 см", "20-30 см", "30-40 см", "более 40 см"],
 }
 
-const paramsKeys = Object.keys(params);
+// const paramsKeys = Object.keys(params);
 // const active = paramsKeys[0];
 
-const Filter = (props: Props) => {
+const Filter = () => {
 
     const [active, setActive] = useState<string>();
 
