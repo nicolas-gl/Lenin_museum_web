@@ -1,0 +1,52 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(#929292, #ffffff);
+
+  position: relative;
+
+  @media (pointer: coarse) {
+    /* mobile device */
+    // background-color: yellow;
+
+  }
+
+  @media (pointer: fine),
+  (pointer: none) {
+    /* desktop */
+    // background-color: green;
+  }
+
+  @media (pointer: fine) and (any-pointer: coarse) {
+    /* touch desktop */
+    // background-color: yellowgreen;
+
+  }
+
+
+}
+
+header:after {
+  content: "";
+  // background: #d4d4d4;
+  background: linear-gradient(0.25turn, #ffffff, #757575, #ffffff);
+
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  height: 2px;
+  width: 90%;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0.45em;
+  font-weight: 500;
+  font-size: 1.4em;
+}

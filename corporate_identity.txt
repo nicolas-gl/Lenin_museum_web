@@ -1,0 +1,12 @@
+Colors: 
+    #bbbbbb     - Light graphite
+    #929292     - Medium graphite
+    #757575     - Dark graphite
+    #010203     - FOGRA39 Rich Black
+    #ae2a28     - Red revolution
+    #c0362c     - Tigers Eye (orange)
+    #d7c498     - Pavlova (beige)
+
+Fonts: 
+    "IBM Plex Sans",
+    "Inter"
