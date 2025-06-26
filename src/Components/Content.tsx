@@ -4,6 +4,34 @@ import Filter from './Filter';
 
 // type Props = {}
 
+const images = [
+    "https://i.postimg.cc/DwvszRmY/Whats-App-Image-2025-06-26-at-16-27-30.jpg",
+    "https://i.postimg.cc/wvmRPpb3/Whats-App-Image-2025-06-26-at-16-27-30-1.jpg",
+    "https://i.postimg.cc/JzYyznfG/Whats-App-Image-2025-06-26-at-16-27-30-10.jpg",
+    "https://i.postimg.cc/133nS6Yk/Whats-App-Image-2025-06-26-at-16-27-30-11.jpg",
+    "https://i.postimg.cc/N0yK9ttb/Whats-App-Image-2025-06-26-at-16-27-30-12.jpg",
+    "https://i.postimg.cc/VN3dXhLw/Whats-App-Image-2025-06-26-at-16-27-30-13.jpg",
+    "https://i.postimg.cc/Twgh0cpD/Whats-App-Image-2025-06-26-at-16-27-30-14.jpg",
+    "https://i.postimg.cc/zvkvZXwD/Whats-App-Image-2025-06-26-at-16-27-30-15.jpg",
+    "https://i.postimg.cc/44vmhBCC/Whats-App-Image-2025-06-26-at-16-27-30-16.jpg",
+    "https://i.postimg.cc/L5S5bZ10/Whats-App-Image-2025-06-26-at-16-27-30-17.jpg",
+    "https://i.postimg.cc/kXnDNK92/Whats-App-Image-2025-06-26-at-16-27-30-18.jpg",
+    "https://i.postimg.cc/dV5CZnyQ/Whats-App-Image-2025-06-26-at-16-27-30-2.jpg",
+    "https://i.postimg.cc/fbk9cXcc/Whats-App-Image-2025-06-26-at-16-27-30-3.jpg",
+    "https://i.postimg.cc/xd7btC5W/Whats-App-Image-2025-06-26-at-16-27-30-4.jpg",
+    "https://i.postimg.cc/90HwHnvb/Whats-App-Image-2025-06-26-at-16-27-30-5.jpg",
+    "https://i.postimg.cc/br0DyRPh/Whats-App-Image-2025-06-26-at-16-27-30-6.jpg",
+    "https://i.postimg.cc/dQGTjJyx/Whats-App-Image-2025-06-26-at-16-27-30-7.jpg",
+    "https://i.postimg.cc/dtvZWgRt/Whats-App-Image-2025-06-26-at-16-27-30-8.jpg",
+    "https://i.postimg.cc/Hs2cF330/Whats-App-Image-2025-06-26-at-16-27-30-9.jpg",
+    "https://i.postimg.cc/HsBn6nsB/Whats-App-Image-2025-06-26-at-16-27-58.jpg",
+    "https://i.postimg.cc/cLCH2WvZ/Whats-App-Image-2025-06-26-at-16-28-14.jpg",
+    "https://i.postimg.cc/pLSTtSjj/Whats-App-Image-2025-06-26-at-16-28-24.jpg",
+    "https://i.postimg.cc/LsZs4Vkb/Whats-App-Image-2025-06-26-at-16-28-37.jpg",
+    "https://i.postimg.cc/FRys3sBb/Whats-App-Image-2025-06-26-at-16-28-54.jpg",
+    "https://i.postimg.cc/0QRyzJc2/Whats-App-Image-2025-06-26-at-17-27-26.jpg",
+]
+
 
 const onSearchFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -24,36 +52,11 @@ const Content = () => {
             <div className={styles.container}>
                 <Filter />
                 <div className={styles.itemsBlock}>
-                    <img src="https://uole-museum.ru/wp-content/uploads/2024/04/IMG_20240422_230951_869.jpg" alt="" />
-                    <img src="https://i.postimg.cc/T2WKQ4Ms/Whats-App-Image-2025-06-26-at-12-25-55.jpg" alt="" />
-                    <img src="https://i.etsystatic.com/14445756/r/il/820ed1/1177567711/il_570xN.1177567711_ovxm.jpg" alt="" />
-                    <img src="https://i.postimg.cc/MGTTBsmd/Whats-App-Image-2025-06-26-at-12-25-56.jpg" alt="" />
-                    <img src="https://i.postimg.cc/HsDVN9Tk/Whats-App-Image-2025-06-26-at-12-25-56-1.jpg" alt="" />
-                                                            
-                    <img src="https://i0.wp.com/lenin.shm.ru/wp-content/uploads/2020/11/13.-gim-111810-98_1.jpg?fit=991%2C1500&ssl=1" alt="" />
-                    <img src="https://lh5.googleusercontent.com/proxy/EcZ6ZxiTEDHk4YVlfR_wjn0kXYjXvA1bPf9Ax4otZLrcbpoFw-37iXXFBmeRSxllivRZ7vA3uuWiIq-O4o14NIlpD_M3vEZ016SwaGrbx6v-o9AoyH_3kqGnd4DN" alt="" />
-                    <img src="https://museumanapa.ru/wp-content/uploads/2021/10/IMG_3077-1024x784.jpg" alt="" />
-                    <img src="https://i.postimg.cc/WbGhcq46/Whats-App-Image-2025-06-26-at-12-25-56-2.jpg" alt="" />
-                    <img src="https://i.postimg.cc/MpzX6ZMk/Whats-App-Image-2025-06-26-at-12-25-56-3.jpg" alt="" />
-                    
-                    
-                    <img src="https://www.yuga.ru/media/5c/fc/sin_1561(3)__jkf404l.jpg" alt="" />
-                    <img src="https://akcia-antique.ru/wp-content/uploads/69947-384x512.jpg" alt="" />
-                    <img src="https://sothebys-com.brightspotcdn.com/dims4/default/b7e8f0d/2147483647/strip/true/crop/1855x2000+0+0/resize/2880x3105!/format/webp/quality/90/?url=http%3A%2F%2Fsothebys-brightspot-migration.s3.amazonaws.com%2F81%2Fe8%2F5f%2F4840476fa5eccdee04028eda6117d73b5f004ba4656b51da8bdc4a3c87%2F259l14232-7bm9g.jpg" alt="" />
-                    <img src="https://i.postimg.cc/L8v5ndLJ/Whats-App-Image-2025-06-26-at-12-25-56-4.jpg" alt="" />
-                    
-                    <img src="https://newkomok.ru/image/cache/data/catalog/2015/60/56/aa90d9655d81d7103fbb9b140a2569ab-1280x1280.jpg" alt="" />
-                    <img src="https://i.ebayimg.com/images/g/edEAAOSwDfFjqN43/s-l400.jpg" alt="" />
-                    <img src="https://i.postimg.cc/5ywNJDfN/Whats-App-Image-2025-06-26-at-12-25-57.jpg" alt="" />
-                    
-                    <img src="https://i.ebayimg.com/images/g/TXgAAOSwVTpeMWTT/s-l1200.jpg" alt="" />
-                    <img src="https://cs13.pikabu.ru/post_img/big/2021/01/10/5/1610261880218022465.png" alt="" />
-                    <img src="https://uraloved.ru/images/history/lenin/pamyatniki-leninu-9.jpg" alt="" />
-                    <img src="https://i.postimg.cc/mkx20Tf5/Whats-App-Image-2025-06-26-at-12-25-57-2.jpg" alt="" />
-                    <img src="https://i.postimg.cc/NM2jJ5VX/Whats-App-Image-2025-06-26-at-12-25-57-1.jpg" alt="" />
-                    
-                    <img src="https://uraloved.ru/images/history/lenin/pamyatniki-leninu-11.jpg" alt="" />
-                    <img src="https://www.ostmuzey.ru/wp-content/uploads/2019/12/kgpFDS0HWAo.jpg" alt="" />
+                    {images.map((url) =>
+                        <div>
+                            <img src={url} alt="" />
+                        </div>
+                    )}
                 </div>
             </div>
         </div>

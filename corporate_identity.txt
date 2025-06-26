@@ -1,4 +1,5 @@
 Colors: 
+    #f7f7f7     - Ultra-light graphite
     #bbbbbb     - Light graphite
     #929292     - Medium graphite
     #757575     - Dark graphite
