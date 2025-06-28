@@ -48,7 +48,6 @@ const Content = () => {
                     <img src="assets/img/icons/search.svg" alt="search" />
                 </button>
             </form>
-            <h2>КОЛЛЕКЦИЯ</h2>
             <div className={styles.container}>
                 <Filter />
                 <div className={styles.itemsBlock}>

@@ -1,14 +1,27 @@
+import { Link } from 'react-router';
+import { useLocation } from 'react-router';
 import styles from './Footer.module.scss';
 
 
+const links = {
+    "КОЛЛЕКЦИЯ": "/",
+    "БИОГРАФИЯ": "/biography",
+    "О МУЗЕЕ": "/about",
+    "КОНТАКТЫ": "/contacts"
+}
+
 const Footer = () => {
+
+    let location = useLocation();
+
     return (
         <footer >
             <div className={styles.navigation}>
-                <h2>КОЛЛЕКЦИЯ</h2>
-                <h2>БИОГРАФИЯ</h2>
-                <h2>О МУЗЕЕ</h2>
-                <h2>КОНТАКТЫ</h2>
+                {Object.entries(links).map(([key, value]) =>
+                    <Link to={value}>
+                        <h2 className={location.pathname === value ? styles.active : ""}>{key}</h2>
+                    </Link>
+                )}
             </div>
 
             {/* <Link to="/info"><img src={"assets/img/icons/info.svg"} alt="info" /></Link> */}

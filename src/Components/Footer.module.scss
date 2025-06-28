@@ -45,6 +45,9 @@ footer::before {
   @media (pointer: fine) and (any-pointer: coarse) {
     /* touch desktop */
     // background-color: yellowgreen;
+  }
 
+  .active {
+    color: #ae2a28;
   }
 }
